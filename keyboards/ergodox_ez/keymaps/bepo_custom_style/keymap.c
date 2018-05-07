@@ -119,9 +119,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Layer 3: Numeric keypad and system keys.
   [NUMS] = KEYMAP(
     /* left hand */
-    KC_PSCR, KC_INS, KC_PAUS,    ___,     ___,      ___, ___,
     ___,     ___,    ___,        ___,     ___,      ___, ___,
-    ___,     ___,    ___,        ___,     ___,      ___,
+    ___,     ___,    ___,        ___,     ___,      ___, ___,
+    ___,     ___,    KC_PSCR,    KC_INS,  KC_PAUS,  ___,
     ___,     ___,    MK_CUT,     MK_COPY, MK_PASTE, ___, ___,
     ___,     ___,    ___,        ___,     ___,
                                               ___, ___,
